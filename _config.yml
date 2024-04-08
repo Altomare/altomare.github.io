@@ -33,6 +33,13 @@ remote_theme: sighingnow/jekyll-gitbook
 # plugins:
   # - jekyll-feed
 
+markdown_ext: markdown,mkdown,mkdn,mkd,md
+
+collections:
+  pages:
+    output: true
+    permalink: /:collection/:path/
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
