@@ -26,15 +26,13 @@ References:
 * Magnetic Peripherals BR8B1A (Part # 77680001)
 
 Jumpers description:
-```
-H: Motor on & head load with select (HS)
-1: Drive select 1
-2: Drive select 2
-3: Drive select 3
-X: Multiplex opt
-4: Drive select 4
-M: Head load with 'motor on' signal only
-```
+* H: Motor on & head load with select (HS)
+* 1: Drive select 1
+* 2: Drive select 2
+* 3: Drive select 3
+* X: Multiplex opt
+* 4: Drive select 4
+* M: Head load with 'motor on' signal only
 
 Manual: [bitsavers.org](https://bitsavers.org/pdf/cdc/discs/floppy/77653379_Flexible_Disk_Drive_Model_9409_Product_Specification_Dec80.pdf)
 
@@ -59,7 +57,7 @@ Motor Control: select which signals control which motor
 | x |   |   |   | Motor ON     | Always       |
 |   | x |   |   | Drive Select | Always       |
 
-The jumeprs are set to RDY | A | C on the Otrona.
+Otrona jumper setup: RDY, A, C
 
 Manual: [bitsavers.org](http://bitsavers.org/pdf/remex/floppy/Remex_RFD480_RFD960_Product_Reference_Manual.pdf)
 
