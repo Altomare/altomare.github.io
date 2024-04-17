@@ -3,7 +3,9 @@ title: Otrona Documentation
 layout: post
 ---
 
-Here be documents
+Here be documents.
+
+The following table lists the Otrona documentation I know of. Some publication numbers denotate an empty binder which is meant to be filled with other publications.
 
 <div class="table-wrapper" markdown="block">
 
@@ -11,19 +13,21 @@ Here be documents
 | ------------- | ----- | ------- | ---------------------------------------------- |
 |               | 82/06 | 1.2     | ATTACHE Demonstration Diskette                 |
 |               | 82/09 |         | Technical Notes                                |
-|               | 82/11 | 1.0     | Valet Guide                                    |
 |               | 83/01 | 2.2.3   | BIOS Source Listing                            |
 | 92-05-1201    | 83/06 | 1.0     | CP/M Guide                                     |
 | 92-05-1203    | 83/09 | 1.2     | Owner's Handbook and BASIC-80 Reference Manual |
 | 92-05-1204    | 83/06 | 2.0     | Wordstar-Plus Guide                            |
 | 92-05-1206    | 83/03 | 1.0     | Service Guide                                  |
-| 92-05-1209    |       |         | Operator's Guide                               |
+| 92-05-1209    | 83/06 | 2.0     | Operator's Guide                               |
 | 92-05-1210    | 83/06 | 1.1     | Techical Manual                                |
+| 92-05-1210    | 82/11 | 1.0     | Valet Guide                                    |
 | 92-05-1210    | 83/06 | 2.0     | Valet Guide                                    |
 | 92-05-1211    | 83/06 | 2.0     | Charton Guide                                  |
-| 92-05-1224    |       |         | Multiplan                                      |
+| 92-05-1224    |       |         | Multiplan binder                               |
 | 92-05-1230    | 83/06 | 1.0     | Software Guide                                 |
-| 92-05-1233    | 83/11 | 1.1     | 8-16 Operator's Guide                          |
+| 92-05-1231    |       |         | User's Guide Volume 1 binder                   |
+| 92-05-1232    |       |         | User's Guide Volume 2 binder                   |
+| 92-05-1233    | 83/11 | 1.1     | 8-16 Operator's Guide (MS-DOS)                 |
 | 92-05-1240    | 83/11 | 1.1     | MS-DOS Guide                                   |
 | 92-05-1241    | 83/11 | 1.0     | 8-16 Service Guide Supplement                  |
 | 95-05-1216    |       |         | Valet and 10-Key Mode Keyboard Decals          |
@@ -35,5 +39,11 @@ Here be documents
 | 95-05-1506    |       |         | Software Guide Addendum                        |
 | 95-05-1506    |       |         | Valet Guide Addendum                           |
 | 92-07-0036    | 84/05 | 1.1     | Otrona 2001 GW-Basic Guide                     |
+
+Known about but no data:
+* Multiplan documentation
+* GPIB/Multifunction Technical Manual
+* MS-DOS Programmer's Guide (with Macroassembler)
+* Attache MS-DOS BIOS Listing
 
 </div>
