@@ -39,6 +39,10 @@ collections:
   pages:
     output: true
     permalink: /:collection/:path/
+  otrona:
+    title: "Otrona"
+    output: true
+    permalink: /:collection/:path/
 
 toc:
   enabled: true

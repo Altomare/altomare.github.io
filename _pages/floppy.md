@@ -10,7 +10,7 @@ This is a collection of data about the floppy drives I own and use for dumping.
 | Brand                      | Model          | RPM | TPI | Sides | Max track | Height | Pin 2 | Pin 4  | Pin 34 |
 | -------------------------- | -------------- | --- | --- | ----- |---------- | ------ | ----- | ------ | ------ |
 | TEAC                       | FD-55BV-54-U   | 300 | 48  | 2     |  40       | 43mm   |   -   | In Use | Ready  |
-| Remex                      | RFD480         | 300 | 48  | 2     |  40       |        |   -   |   -    | Ready  |
+| Remex                      | RFD480         | 300 | 48  | 2     |  40       | 57mm   |   -   |   -    | Ready  |
 | Magnetic Peripherals (CDC) | BR8B1A (9049)  | 300 | 48  | 2     |  40       | 86mm   |   -   | In Use |   -    |
 
 </div>
