@@ -5,7 +5,8 @@ layout: post
 
 Here be documents.
 
-The following table lists the Otrona documentation I know of. Some publication numbers denotate an empty binder which is meant to be filled with other publications.
+The following table lists the Otrona documentation I know of.
+Some publication numbers denotate an empty binder which is meant to be filled with other publications.
 
 <div class="table-wrapper" markdown="block">
 
@@ -40,10 +41,12 @@ The following table lists the Otrona documentation I know of. Some publication n
 | 95-05-1506    |       |         | Valet Guide Addendum                           |
 | 92-07-0036    | 84/05 | 1.1     | Otrona 2001 GW-Basic Guide                     |
 
+</div>
+
 Known about but no data:
 * Multiplan documentation
 * GPIB/Multifunction Technical Manual
 * MS-DOS Programmer's Guide (with Macroassembler)
 * Attache MS-DOS BIOS Listing
 
-</div>
+**TO-DO**: Scan and upload
