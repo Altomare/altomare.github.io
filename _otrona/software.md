@@ -27,6 +27,8 @@ It is usually on a 2732 EPROM, but the socket also accepts 2764s.
 The character ROM (U416) is the same on all the Otronas I've seen so far. From early Attachés to late 8:16s.
 It is usually labeled "CG 500".
 
+[Otrona_Attaché_U416_CG_500.BIN]({{ site.url }}/assets/rom/otrona/Otrona_Attaché_U416_CG_500.BIN).
+
 MD5: `346258b1cc3e3e88fa7e7e0b6a1984e7`
 
 ![Otrona Character ROM]({{ site.url }}/assets/images/otrona/otrona_character_rom.png)
