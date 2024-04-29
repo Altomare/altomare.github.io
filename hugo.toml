@@ -1,6 +1,6 @@
 baseURL = '/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Altomare's Electronic Stuff"
 contentDir = "content"
 
 [module]
@@ -13,7 +13,7 @@ contentDir = "content"
 
 [menu]
     [[menu.primary]]
-        name  = "Docs"
+        name  = "Altomare's stuff"
         url = "docs/"
         identifier = "docs"
         weight = 10
