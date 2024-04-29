@@ -19,6 +19,8 @@ The Otrona boot ROM (U252) contains the following features:
 
 It is usually on a 2732 EPROM, but the socket also accepts 2764s.
 
+{{< table "table-striped table-bordered table-responsive" >}}
+
 | Version | Motherboard | MD5                                |
 | ------- | ----------- | ---------------------------------- |
 | D       | Rev C       | `2db2b51c07f2412b51531a3d4c3c21b1` |
@@ -26,6 +28,7 @@ It is usually on a 2732 EPROM, but the socket also accepts 2764s.
 | G       |             | `fdb4e89990238beabdd423f8868203b9` |
 | H       | Rev E       | `29b42cb020ce64b4a7e7accb5bf182db` |
 
+{{< /table >}}
 
 ### Character
 
@@ -73,7 +76,7 @@ Memory layout (64KB total):
 ### Versions
 
 Below is a list of the OS versions I came across, along with the machine revision they came with:
-{{< table "table-striped table-sm table-borderless" >}}
+{{< table "table-striped table-borderless table-responsive" >}}
 | Boot message                    | Source                 | Board        | Drive  | Notes               |
 | --------------------------------| ---------------------- | ------------ | ------ | ------------------- |
 | CP/M 2.2.3 Otrona ATTACHE <56K> | Own dump               | Rev C, ROM D | 48 TPI |                     |         |
@@ -81,99 +84,3 @@ Below is a list of the OS versions I came across, along with the machine revisio
 | CP/M 2.2.5 Otrona ATTACHE <56K> | Sources                | ???          | 96 TPI | No CCP & BDOS       |
 | CP/M 2.2.5 Otrona ATTACHE <56K> | Own dump               | Rev E, ROM H | 48 TPI |                     |
 {{< /table >}}
-
-## Software
-
-Unsorted collection of dumps, likely contains duplicates.
-
-### Disk Images
-
-{{< table "table-striped table-sm table-bordered table-responsive" >}}
-
-| File                                         | Source     | Description                      |
-| -------------------------------------------- | ---------- | -------------------------------- |
-| oatt8086.td0                                 | Don Maslin | Otrona Attache' w/ 8086 add-in board - MSDOS v2.1 |
-| oattache.td0                                 | Don Maslin | Otrona Attache' system disk      |
-| otr-srce.td0                                 | Don Maslin | Attache' ASM/BAS/MAC source code |
-| otr-util.td0                                 | Don Maslin | Attache' Utilities               |
-| Attache_Boot_2.2.5.IMD                       | Bitsavers  |                                  |
-| attache_msdos.hfe                            | Altomare   |                                  |
-| attache_software_cpm_225H.hfe                | Altomare   |                                  |
-| cpm_system_master.hfe                        | Altomare   |                                  |
-| FS_OTRONA_MASTER_V3_Mailmerge__Spellstar.hfe | Altomare   |                                  |
-| gwbasic.hfe                                  | Altomare   |                                  |
-| msdos_multiplan.hfe                          | Altomare   |                                  |
-| multiplan_msdos.hfe                          | Altomare   |                                  |
-| otrona_msdos_system_master.hfe               | Altomare   |                                  |
-| otrona_system_master.hfe                     | Altomare   |                                  |
-| system_master_cpm.hfe                        | Altomare   |                                  |
-| wordstar_cpm.hfe                             | Altomare   |                                  |
-
-{{< /table >}}
-
-
-### Misc.
-
-| File                      | Source       | Description                      |
-| --------------------------| ------------ | -------------------------------- |
-| bios225.asm               | Bitsavers    |                                  |
-| bios225.zip               | Don Maslin   |                                  |
-| mbasic.com                | Don Maslin   |                                  |
-| ns-copy1                  | Don Maslin   |                                  |
-| otr-asm.zip               | Don Maslin   |                                  |
-| otr-bas.zip               | Don Maslin   |                                  |
-| otr-dos.zip               | Don Maslin   |                                  |
-| otr-mex.zip               | Don Maslin   | MEX communications               |
-| otr-mp.zip                | Don Maslin   | MultiPlan for the Attache'       |
-| otr-utl.zip               | Don Maslin   |                                  |
-| otr-ws.zip                | Don Maslin   | Wordstar 3.0 for the Attache'    |
-| otrnasrc.zip              | Don Maslin   |                                  |
-| disk01-CPM-BOOT.tar       | Tom Jennings |                                  |
-| disk02-MULTIPLAN-BOOT.tar | Tom Jennings |                                  |
-| disk03-OTRONA-BOOT.tar    | Tom Jennings |                                  |
-| disk04-CPM-WS-TELINK.tar  | Tom Jennings |                                  |
-| disk05-CPM-WS-TELINK.tar  | Tom Jennings |                                  |
-| disk06-ADVENTURE.tar      | Tom Jennings |                                  |
-| disk07-DBASE-ZIP.tar      | Tom Jennings |                                  |
-| disk08-ADVENTURE-MISC.tar | Tom Jennings |                                  |
-| disk09-WS-BOOT.tar        | Tom Jennings |                                  |
-| disk10-MBASIC.tar         | Tom Jennings |                                  |
-| disk11-UNKNOWN-APP.tar    | Tom Jennings |                                  |
-| disk12-CPM-ALL-WS.tar     | Tom Jennings |                                  |
-| disk13-ADVENTURE.tar      | Tom Jennings |                                  |
-| disk14-BASIC.tar          | Tom Jennings |                                  |
-| disk15-UNKNOWN-APP2.tar   | Tom Jennings |                                  |
-| disk16-UNKNOWN-APP3.tar   | Tom Jennings |                                  |
-
-
-&nbsp;
-
-About Tom Jennings' dumps:
-
-> While working for Phoenix Software Associates I ported MSDOS to
-> the Z80-based Otrona Attache 8:16 (Mike Aronson fit an 8086
-> into the printer option slot!).
-> Here's a copy of the floppies I had for mine.
->
-> ------------------------------------------------------------------
->
-> These are copies of the diskettes that remained with
-> my original Otrona Attache. THe computer was sold on eBay, and the
-> buyer copied all the diskette contents to CD-ROM for me. THe dates
-> were lost (since CP/M did not keep them), but a few directories
-> contain files with dated names. Also some of the ADVENTURE files
-> are from 1980 (Eric's friend Keith, etc), which is odd since in
-> 1980 in our rented house we had a PDOS machine (rack mount, what
-> waws the brand?) with 8" floppies. Must have been backed up
-> (likely).
-> 
-> .CPM == .COM CP/M-80 binary executables.
-> 
-> The BASIC files are mainly Otrona Attache, with many
-> non-standard graphics extentions. The MBASIC stuff is likely plain
-> old MBASIC.
-> 
-> Adventure is a Z80, TDL/Xitan FORTRAN-compiled version
-> of the "original" 350 point version. A map exists in my papers
-> somewhere.
-
