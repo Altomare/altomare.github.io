@@ -1,18 +1,16 @@
 ---
 weight: 999
-title: "Otrona_documentation"
-description: ""
-icon: "article"
+title: "Documentation"
+description: "User manuals, technical documentation and more"
+icon: "book"
 date: "2024-04-22T13:09:17+02:00"
 lastmod: "2024-04-22T13:09:17+02:00"
-toc: true
 ---
-
-Here be documents.
 
 The following table lists the Otrona documentation I know of.
 Some publication numbers denotate an empty binder which is meant to be filled with other publications.
 
+{{< table "table-striped table-borderless table-responsive" >}}
 | Publication # | Date  | Version | Name                                           |
 | ------------- | ----- | ------- | ---------------------------------------------- |
 |               | 82/06 | 1.2     | ATTACHE Demonstration Diskette                 |
@@ -43,6 +41,7 @@ Some publication numbers denotate an empty binder which is meant to be filled wi
 | 95-05-1506    |       |         | Software Guide Addendum                        |
 | 95-05-1506    |       |         | Valet Guide Addendum                           |
 | 92-07-0036    | 84/05 | 1.1     | Otrona 2001 GW-Basic Guide                     |
+{{< /table >}}
 
 Known about but no data:
 * Multiplan documentation

@@ -1,11 +1,10 @@
 ---
-weight: 999
-title: "Otrona Software"
-description: ""
-icon: "article"
+weight: 330
+title: "Software"
+description: "Otrona system software"
+icon: "save"
 date: "2024-04-22T13:09:11+02:00"
 lastmod: "2024-04-22T13:09:11+02:00"
-toc: true
 ---
 
 ## System ROMs
