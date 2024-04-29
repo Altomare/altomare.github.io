@@ -34,7 +34,7 @@ It is usually labeled "CG 500".
 
 MD5: `346258b1cc3e3e88fa7e7e0b6a1984e7`
 
-![Otrona Character ROM]({{ site.url }}/assets/images/otrona/otrona_character_rom.png)
+![Otrona Character ROM](/otrona_character_rom.png)
 
 The above picture contains, in order:
 * [Alternate-1] Forms ruling set
