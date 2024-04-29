@@ -1,6 +1,7 @@
-baseURL = 'https://example.org/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+contentDir = "content"
 
 [module]
     [[module.imports]]
@@ -9,3 +10,10 @@ title = 'My New Hugo Site'
     [[module.imports]]
         path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
         disable = false
+
+[menu]
+    [[menu.primary]]
+        name  = "Docs"
+        url = "docs/"
+        identifier = "docs"
+        weight = 10
