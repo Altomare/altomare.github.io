@@ -19,13 +19,14 @@ The Otrona boot ROM (U252) contains the following features:
 It is usually on a 2732 EPROM, but the socket also accepts 2764s.
 
 {{< table "table-striped table-bordered table-responsive" >}}
-
-| Version | Motherboard | MD5                                |
-| ------- | ----------- | ---------------------------------- |
-| D       | Rev C       | `2db2b51c07f2412b51531a3d4c3c21b1` |
-| F       |             | `f9975873e30494aae32c8cb5385156a4` |
-| G       |             | `fdb4e89990238beabdd423f8868203b9` |
-| H       | Rev E       | `29b42cb020ce64b4a7e7accb5bf182db` |
+  
+| Version | Motherboard | Notes                                                                         | Downloads                                              |
+| ------- | ----------- | ----------------------------------------------------------------------------- | ------------------------------------------------------ |
+| Rev D   | Rev C       | Partial reverse-enginering available [here](https://github.com/fstark/anorto) | [ROM](/files/otrona/rom/Otrona_Attache_U252_Rev_D.BIN) |
+| Rev F   |             |                                                                               | [ROM](/files/otrona/rom/Otrona_Attache_U252_Rev_F.BIN) |
+| Rev G   |             |                                                                               | [ROM](/files/otrona/rom/Otrona_Attache_U252_Rev_G.BIN) |
+| Rev H   | Rev E       |                                                                               | [ROM](/files/otrona/rom/Otrona_Attache_U252_Rev_H.BIN) |
+| Rev X   |             | Likely the last version. Not seen in the wild, was in source release          | [Source](/files/otrona/source/MONX.ASM)                |
 
 {{< /table >}}
 
