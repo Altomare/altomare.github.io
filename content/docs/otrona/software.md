@@ -17,18 +17,24 @@ The Otrona boot ROM (U252) contains the following features:
 * System diagnostics
 
 It is usually on a 2732 EPROM, but the socket also accepts 2764s.
+These images should be compatible with every motherboard revision.
 
 {{< table "table-striped table-bordered table-responsive" >}}
   
-| Version | Motherboard | Notes                                                                         | Downloads                                              |
-| ------- | ----------- | ----------------------------------------------------------------------------- | ------------------------------------------------------ |
-| Rev D   | Rev C       | Partial reverse-enginering available [here](https://github.com/fstark/anorto) | [ROM](/files/otrona/rom/Otrona_Attache_U252_Rev_D.BIN) |
-| Rev F   |             |                                                                               | [ROM](/files/otrona/rom/Otrona_Attache_U252_Rev_F.BIN) |
-| Rev G   |             |                                                                               | [ROM](/files/otrona/rom/Otrona_Attache_U252_Rev_G.BIN) |
-| Rev H   | Rev E       |                                                                               | [ROM](/files/otrona/rom/Otrona_Attache_U252_Rev_H.BIN) |
-| Rev X   |             | Likely the last version. Not seen in the wild, was in source release          | [Source](/files/otrona/source/MONX.ASM)                |
+| Version | Notes                                                                         | Downloads                                              |
+| ------- | ----------------------------------------------------------------------------- | ------------------------------------------------------ |
+| Rev D   | Partial reverse-enginering available [here](https://github.com/fstark/anorto) | [ROM](/files/otrona/rom/Otrona_Attache_U252_Rev_D.BIN) |
+| Rev F   |                                                                               | [ROM](/files/otrona/rom/Otrona_Attache_U252_Rev_F.BIN) |
+| Rev G   |                                                                               | [ROM](/files/otrona/rom/Otrona_Attache_U252_Rev_G.BIN) |
+| Rev H   | Adds 8:16 card diagnostics                                                    | [ROM](/files/otrona/rom/Otrona_Attache_U252_Rev_H.BIN) |
+| Rev X   | Identical to H, except for one byte (revision display).                       | [ROM](/files/otrona/rom/Otrona_Attache_U252_Rev_X.BIN) / [Source (ZASM)](/files/otrona/source/MONX.ASM) / [Source (ZASM, cleaned)](files/otrona/source/MONX_CLEANED.ASM) |
 
 {{< /table >}}
+
+For Rev X, I recompiled from the source release using [ZASM](/files/cpm/compilers/tdl_assemblers.zip) on [RunCPM](https://github.com/MockbaTheBorg/RunCPM).
+
+When reading sources, some characters may look corrupted. This is due to some CP/M editors adding page break markers by setting the most significant byte to 1.
+The cleaned source file also linked is the same without trailing spaces, MSB page breaks and trailing EOFs.
 
 ### Character
 
