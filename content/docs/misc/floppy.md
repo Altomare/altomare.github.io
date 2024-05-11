@@ -12,6 +12,7 @@ This is a collection of data about the floppy drives I own and use for dumping.
 | TEAC                       | FD-55BV-54-U   | 300 | 48  | 2     |  40       | 43mm   |   -   | In Use | Ready  |
 | Remex                      | RFD480         | 300 | 48  | 2     |  40       | 57mm   |   -   |   -    | Ready  |
 | Magnetic Peripherals (CDC) | BR8B1A (9049)  | 300 | 48  | 2     |  40       | 86mm   |   -   | In Use |   -    |
+| YE Data                    | YD-380B (1736) | 300 | 96  | 2     |  82       | 43mm   |   ?   |   ?    |   ?    |
 
 </div>
 
@@ -93,3 +94,12 @@ Front LED behavior:
 |  X |  X |  X | In use OR (drive select & ready) |
 
 Manual: [bitsavers.org](http://bitsavers.org/pdf/teac/FD-55BV_Specification.pdf)
+
+### Ye-Data YD-380B Model 1736
+
+No documentation (yet) for this specific model.
+
+The only soldered jumper headers are DS0 and DS1.
+
+The PCB has 12 footprints for surface mount shunts, labeled JP1 to JP12.
+Some are installed, but I assume these are for different hardware configurations...
