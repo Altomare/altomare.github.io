@@ -5,6 +5,8 @@ layout: post
 
 This is a collection of data about the floppy drives I own and use for dumping.
 
+5.25:
+
 <div class="table-wrapper" markdown="block">
 
 | Brand                      | Model          | RPM | TPI | Sides | Max track | Height | Pin 2 | Pin 4  | Pin 34 |
@@ -15,6 +17,9 @@ This is a collection of data about the floppy drives I own and use for dumping.
 | YE Data                    | YD-380B (1736) | 360 | 96  | 2     |  82       | 43mm   |   ?   | In Use | Ready  |
 
 </div>
+
+3.5:
+* Mitsumi D359M3D: 1M / 2M mode. Max track 82
 
 Useful data:
 * <https://retrocmp.de/fdd/general/floppy-bus.htm>
