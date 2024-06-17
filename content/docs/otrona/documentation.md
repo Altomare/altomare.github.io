@@ -15,13 +15,14 @@ Some publication numbers denotate an empty binder which is meant to be filled wi
 | ------------- | ----- | ------- | ---------------------------------------------- |
 |               | 82/06 | 1.2     | ATTACHE Demonstration Diskette                 |
 |               | 82/09 |         | Technical Notes                                |
+|               |       |         | Technical Notes Manual                         |
 |               | 83/01 | 2.2.3   | BIOS Source Listing                            |
 | 92-05-1201    | 83/06 | 1.0     | CP/M Guide                                     |
 | 92-05-1203    | 83/09 | 1.2     | Owner's Handbook and BASIC-80 Reference Manual |
 | 92-05-1204    | 83/06 | 2.0     | Wordstar-Plus Guide                            |
 | 92-05-1206    | 83/03 | 1.0     | Service Guide                                  |
 | 92-05-1209    | 83/06 | 2.0     | Operator's Guide                               |
-| 92-05-1210    | 83/06 | 1.1     | Techical Manual                                |
+| 92-05-1210    | 83/06 | 1.1     | Technical Manual                               |
 | 92-05-1210    | 82/11 | 1.0     | Valet Guide                                    |
 | 92-05-1210    | 83/06 | 2.0     | Valet Guide                                    |
 | 92-05-1211    | 83/06 | 2.0     | Charton Guide                                  |
@@ -32,6 +33,7 @@ Some publication numbers denotate an empty binder which is meant to be filled wi
 | 92-05-1233    | 83/11 | 1.1     | 8-16 Operator's Guide (MS-DOS)                 |
 | 92-05-1240    | 83/11 | 1.1     | MS-DOS Guide                                   |
 | 92-05-1241    | 83/11 | 1.0     | 8-16 Service Guide Supplement                  |
+| 92-05-1242    | 83/12 | 1.0     | Attache 8-16 Techical Manual Supplement        |
 | 95-05-1216    |       |         | Valet and 10-Key Mode Keyboard Decals          |
 | 95-05-1266    |       |         | User's Guide Volume 1 Introduction (8-16)      |
 | 95-05-1268    |       |         | User's Guide Volume 2 Introduction (8-16)      |
@@ -48,5 +50,7 @@ Known about but no data:
 * GPIB/Multifunction Technical Manual
 * MS-DOS Programmer's Guide (with Macroassembler)
 * Attache MS-DOS BIOS Listing
+
+"Technical Notes Manual" is a big 13-chapter manual containing technical notes. It's probably from 1983 as it mentions Otrona Advanced Systems instead of Otrona Corporation. It containts the earlier "Technical Notes" document
 
 **TO-DO**: Scan and upload
