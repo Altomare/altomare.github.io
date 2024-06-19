@@ -7,7 +7,10 @@ date: "2024-04-22T13:09:17+02:00"
 lastmod: "2024-04-22T13:09:17+02:00"
 ---
 
+### All publications
+
 The following table lists the Otrona documentation I know of.
+
 Some publication numbers denotate an empty binder which is meant to be filled with other publications.
 
 {{< table "table-striped table-borderless table-responsive" >}}
@@ -45,22 +48,6 @@ Some publication numbers denotate an empty binder which is meant to be filled wi
 | 92-07-0036    | 84/05 | 1.1     | Otrona 2001 GW-Basic Guide                     |          |
 {{< /table >}}
 
-
-
-Known about but no data:
-* Multiplan documentation
-* GPIB/Multifunction Technical Manual
-* MS-DOS Programmer's Guide (with Macroassembler)
-* Attache MS-DOS BIOS Listing
-
-Needs pictures and if they have a publication #
-* Technical Notes binder
-* Technical Manual binder
-
-"Technical Notes Manual" is a big 13-chapter manual containing technical notes. It's probably from 1983 as it mentions Otrona Advanced Systems instead of Otrona Corporation. It containts the earlier "Technical Notes" document
-
-**TO-DO**: Scan and upload
-
 ### User's Guides
 
 User guides were distributed in binders with individual chapters to fill them.
@@ -77,3 +64,19 @@ Here is the usual configurations:
   * Introduction
   * 8-16 Operator's Guide
   * MS-DOS Guide
+
+### Notes
+
+Known about but no data:
+* Multiplan documentation
+* GPIB/Multifunction Technical Manual
+* MS-DOS Programmer's Guide (with Macroassembler)
+* Attache MS-DOS BIOS Listing
+
+Needs pictures and if they have a publication #
+* Technical Notes binder
+* Technical Manual binder
+
+"Technical Notes Manual" is a big 13-chapter manual containing technical notes. It's probably from 1983 as it mentions Otrona Advanced Systems instead of Otrona Corporation. It containts the earlier "Technical Notes" document
+
+**TO-DO**: Scan and upload
