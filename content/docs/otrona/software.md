@@ -24,6 +24,7 @@ These images should be compatible with every motherboard revision.
 | Version | Notes                                                                         | Downloads                                              |
 | ------- | ----------------------------------------------------------------------------- | ------------------------------------------------------ |
 | Rev D   | Partial reverse-enginering available [here](https://github.com/fstark/anorto) | [ROM](/files/otrona/rom/Otrona_Attache_U252_Rev_D.BIN) |
+| Rev E   | No dump available yet                                                         |                                                        |
 | Rev F   |                                                                               | [ROM](/files/otrona/rom/Otrona_Attache_U252_Rev_F.BIN) |
 | Rev G   |                                                                               | [ROM](/files/otrona/rom/Otrona_Attache_U252_Rev_G.BIN) |
 | Rev H   | Adds 8:16 card diagnostics                                                    | [ROM](/files/otrona/rom/Otrona_Attache_U252_Rev_H.BIN) |
@@ -85,7 +86,7 @@ Below is a list of the OS versions I came across, along with the machine revisio
 {{< table "table-striped table-borderless table-responsive" >}}
 | Boot message                    | Source                 | Board        | Drive  | Notes               |
 | --------------------------------| ---------------------- | ------------ | ------ | ------------------- |
-| CP/M 2.2.3 Otrona ATTACHE <56K> | Own dump               | Rev C, ROM D | 48 TPI |                     |         |
+| CP/M 2.2.3 Otrona ATTACHE <56K> | Own dump               | Rev C, ROM D | 48 TPI |                     |
 | CP/M 2.2.5/48 Otrona 8:16 <56K> | Bitsavers & Don Maslin | ???          |        |                     |
 | CP/M 2.2.5 Otrona ATTACHE <56K> | Sources                | ???          | 96 TPI | No CCP & BDOS       |
 | CP/M 2.2.5 Otrona ATTACHE <56K> | Own dump               | Rev E, ROM H | 48 TPI |                     |
