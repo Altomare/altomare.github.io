@@ -25,12 +25,14 @@ These images should be compatible with every motherboard revision.
 | ------- | ----------------------------------------------------------------------------- | ------------------------------------------------------ |
 | Rev D   | Partial reverse-enginering available [here](https://github.com/fstark/anorto) | [ROM](/files/otrona/rom/Otrona_Attache_U252_Rev_D.BIN) |
 | Rev E   | No dump available yet                                                         |                                                        |
-| Rev F   |                                                                               | [ROM](/files/otrona/rom/Otrona_Attache_U252_Rev_F.BIN) |
-| Rev G   |                                                                               | [ROM](/files/otrona/rom/Otrona_Attache_U252_Rev_G.BIN) |
+| Rev F   | Reduce CRT overscan. Terminal mode improvements. Misc. changes \[1]           | [ROM](/files/otrona/rom/Otrona_Attache_U252_Rev_F.BIN) |
+| Rev G   | Fixes CRT controller initialization issue, now conforms to RS-170 \[1]        | [ROM](/files/otrona/rom/Otrona_Attache_U252_Rev_G.BIN) |
 | Rev H   | Adds 8:16 card diagnostics                                                    | [ROM](/files/otrona/rom/Otrona_Attache_U252_Rev_H.BIN) |
 | Rev X   | Identical to H, except for one byte (revision display).                       | [ROM](/files/otrona/rom/Otrona_Attache_U252_Rev_X.BIN) / [Source (ZASM)](/files/otrona/source/MONX.ASM) / [Source (ZASM, cleaned)](files/otrona/source/MONX_CLEANED.ASM) |
 
 {{< /table >}}
+
+\[1]: See Technical Notes Manual for rev F & G changelogs
 
 For Rev X, I recompiled from the source release using [ZASM](/files/cpm/compilers/tdl_assemblers.zip) on [RunCPM](https://github.com/MockbaTheBorg/RunCPM).
 
