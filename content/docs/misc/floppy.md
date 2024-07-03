@@ -11,9 +11,10 @@ This is a collection of data about the floppy drives I own and use for dumping.
 
 | Brand                      | Model          | RPM | TPI | Sides | Max track | Height | Pin 2 | Pin 4  | Pin 34 |
 | -------------------------- | -------------- | --- | --- | ----- |---------- | ------ | ----- | ------ | ------ |
+| Shugart                    | SA-450         | 300 | 48  | 2     |  40       | 86mm   |   -   | In Use |   -    |
+| Magnetic Peripherals (CDC) | BR8B1A (9049)  | 300 | 48  | 2     |  40       | 86mm   |   -   | In Use |   -    |
 | TEAC                       | FD-55BV-54-U   | 300 | 48  | 2     |  40       | 43mm   |   -   | In Use | Ready  |
 | Remex                      | RFD480         | 300 | 48  | 2     |  40       | 57mm   |   -   |   -    | Ready  |
-| Magnetic Peripherals (CDC) | BR8B1A (9049)  | 300 | 48  | 2     |  40       | 86mm   |   -   | In Use |   -    |
 | YE Data                    | YD-380B (1736) | 360 | 96  | 2     |  82       | 43mm   |   ?   | In Use | Ready  |
 
 </div>
@@ -23,6 +24,20 @@ This is a collection of data about the floppy drives I own and use for dumping.
 
 Useful data:
 * <https://retrocmp.de/fdd/general/floppy-bus.htm>
+
+### Shugart SA-450
+
+Jumpers:
+* MX: Single drive configuration, disable drive select logic. See manual section 4.1.1.2
+* MS: Spint motor on drive select
+* 1/2/3/4: drive selet
+* MM: Only spin motor when MOTOR ON signal is high
+
+Empty socket for a 150 Ohm terminator
+
+**Note: very slow seek (20ms). When using a greaseweazle, adjust delays with `gw delays --step 25000`.**
+
+Manual: [bitsavers.org]<http://bitsavers.org/pdf/shugart/SA450/39013-1_SA450_OEM_Manual_Oct80.pdf)
 
 ### CDC 9049
 
