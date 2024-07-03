@@ -28,16 +28,16 @@ Useful data:
 ### Shugart SA-450
 
 Jumpers:
+* 1/2/3/4: drive select
 * MX: Single drive configuration, disable drive select logic. See manual section 4.1.1.2
-* MS: Spint motor on drive select
-* 1/2/3/4: drive selet
+* MS: Spin motor on drive select
 * MM: Only spin motor when MOTOR ON signal is high
 
 Empty socket for a 150 Ohm terminator
 
 **Note: very slow seek (20ms). When using a greaseweazle, adjust delays with `gw delays --step 25000`.**
 
-Manual: [bitsavers.org]<http://bitsavers.org/pdf/shugart/SA450/39013-1_SA450_OEM_Manual_Oct80.pdf)
+Manual: [bitsavers.org]<http://bitsavers.org/pdf/shugart/SA450/39013-1_SA450_OEM_Manual_Oct80.pdf>
 
 ### CDC 9049
 
