@@ -9,13 +9,15 @@ This is a collection of data about the floppy drives I own and use for dumping.
 
 <div class="table-wrapper" markdown="block">
 
-| Brand                      | Model          | RPM | TPI | Sides | Max track | Height | Pin 2 | Pin 4  | Pin 34 |
-| -------------------------- | -------------- | --- | --- | ----- |---------- | ------ | ----- | ------ | ------ |
-| Shugart                    | SA-450         | 300 | 48  | 2     |  40       | 86mm   |   -   | In Use |   -    |
-| Magnetic Peripherals (CDC) | BR8B1A (9049)  | 300 | 48  | 2     |  40       | 86mm   |   -   | In Use |   -    |
-| TEAC                       | FD-55BV-54-U   | 300 | 48  | 2     |  40       | 43mm   |   -   | In Use | Ready  |
-| Remex                      | RFD480         | 300 | 48  | 2     |  40       | 57mm   |   -   |   -    | Ready  |
-| YE Data                    | YD-380B (1736) | 360 | 96  | 2     |  82       | 43mm   |   ?   | In Use | Ready  |
+| Brand                      | Model          | RPM | TPI | Sides | Max track | Height | Pin 2     | Pin 4  | Pin 34 |
+| -------------------------- | -------------- | --- | --- | ----- |---------- | ------ | --------- | ------ | ------ |
+| Shugart                    | SA-450         | 300 | 48  | 2     |  40       | 86mm   |   -       | In Use |   -    |
+| Magnetic Peripherals (CDC) | BR8B1A (9049)  | 300 | 48  | 2     |  40       | 86mm   |   -       | In Use |   -    |
+| Alps                       | FDD2124AM2     | 300 | 48  | 1     |  40       | 43mm   |   ?       |   ?    |   ?    |
+| Micropolis                 | 1015 II S      | 300 | 100 | 1     |  80       | 86mm   | Head Load | Ready  |  DS4   |
+| TEAC                       | FD-55BV-54-U   | 300 | 48  | 2     |  40       | 43mm   |   -       | In Use | Ready  |
+| Remex                      | RFD480         | 300 | 48  | 2     |  40       | 57mm   |   -       |   -    | Ready  |
+| YE Data                    | YD-380B (1736) | 360 | 96  | 2     |  82       | 43mm   |   ?       | In Use | Ready  |
 
 </div>
 
@@ -56,6 +58,24 @@ Jumpers description:
 * M: Head load with 'motor on' signal only
 
 Manual: [bitsavers.org](https://bitsavers.org/pdf/cdc/discs/floppy/77653379_Flexible_Disk_Drive_Model_9409_Product_Specification_Dec80.pdf)
+
+### Alps FDD2124AM2
+
+Single sided, used in the Olivetti ETV300 (CP/M based word processor).
+
+I don't have much info and my drive needs maintenance.
+
+### Micropolis 1015 MOD II
+
+* Model #: 1015 II S
+* P/N: 900040
+
+My drive is an external one with a metal enclosure.
+
+**Like the Shugart SA-450, it has very slow step time and requires delays adjustments when used with a greaseweazle.**
+**Track-to-track access time = 30ms**
+
+Manual: [bitsavers.org](http://www.bitsavers.org/pdf/micropolis/102001A_Micropolis_1015_1016_Maintenance_Manual_Dec79.pdf)
 
 ### Remex RFD480
 
