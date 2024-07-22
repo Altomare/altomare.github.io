@@ -28,6 +28,37 @@ Logical layout:
 0x1800 - 0x3BFF (18 sectors, 9k)  = Rest of BIOS
 ```
 
+Disk Parameter Block:
+```
+SPT = 40   ; 10 * 512 byte sectors per track 
+BSH =  4
+BLM = 15   ; BLS = 2048 bytes per block
+EXM = 1    ; An extent contains 32k
+DSM = 181  ; 182 * 2k = 360k capacity (excluding superblock)
+DRM = 127  ; 128 directory entries
+AL0 = 0xF0
+AL1 = 0
+CKS = 32
+OFF = 3    ; 3 reserved system tracks
+```
+
+cpmtools diskdefs:
+```
+diskdef otrona
+  seclen 512
+  tracks 80
+  sectrk 10
+  blocksize 2048
+  maxdir 128
+  skew 1
+  # Skip 3 system tracks disks
+  offset 30720
+  os 2.2
+end
+```
+
+Note: when testing, I had issues with the boottrk parameter, hence the offset.
+
 On some 8:16 models, the machine uses a 96 TPI drive. For these machines, CP/M is still on 48 TPI disks and the BIOS sets up the drive as if it was 48 TPI.
 
 ### Relevant documentation
