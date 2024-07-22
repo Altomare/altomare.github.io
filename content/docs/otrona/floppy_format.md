@@ -36,11 +36,14 @@ BLM = 15   ; BLS = 2048 bytes per block
 EXM = 1    ; An extent contains 32k
 DSM = 181  ; 182 * 2k = 360k capacity (excluding superblock)
 DRM = 127  ; 128 directory entries
-AL0 = 0xF0
+AL0 = 0xC0 ; 2 blocks used for superblock
 AL1 = 0
 CKS = 32
 OFF = 3    ; 3 reserved system tracks
 ```
+DIRENT  = 128
+
+DIRALC  = 2
 
 cpmtools diskdefs:
 ```
