@@ -47,6 +47,9 @@ DIRALC  = 2
 
 cpmtools diskdefs:
 ```
+# Otrona Attaché, DSDD, 48 TPI, 5.25"
+# First 3 tracks of side 0 contain the OS
+# Last 4 tracks of side 1 are unused
 diskdef otrona
   seclen 512
   tracks 80
@@ -54,7 +57,7 @@ diskdef otrona
   blocksize 2048
   maxdir 128
   skew 1
-  # Skip 3 system tracks disks
+  boottrk 0
   offset 30720
   os 2.2
 end
