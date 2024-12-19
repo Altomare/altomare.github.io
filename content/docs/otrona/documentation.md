@@ -37,6 +37,7 @@ Some publication numbers denotate an empty binder which is meant to be filled wi
 | 92-05-1240    | 83/11 | 1.1     | MS-DOS Guide                                   | [PDF](</documents/otrona/92-95-1240 - MS-DOS Guide (1.1).pdf>) |
 | 92-05-1241    | 83/11 | 1.0     | 8-16 Service Guide Supplement                  | [PDF](</documents/otrona/92-05-1241 - 8-16 Service Guide Supplement (1.0).pdf>) |
 | 92-05-1242    | 83/12 | 1.0     | Attache 8-16 Techical Manual Supplement        | [PDF](</documents/otrona/92-05-1242 - 8-16 Technical Manual Supplement (1.0).pdf>)\[1]         |
+| 92-05-1243    | 83/05 | 1.0     | Disk Manager Supplement                        |          |
 | 95-05-1216    |       |         | Valet and 10-Key Mode Keyboard Decals          |          |
 | 95-05-1266    |       |         | User's Guide Volume 1 Introduction (8-16)      | [PDF](</documents/otrona/95-05-1266 - 8-16 User's Guide Volume 1 Introduction.pdf>) |
 | 95-05-1268    |       |         | User's Guide Volume 2 Introduction (8-16)      |          |
