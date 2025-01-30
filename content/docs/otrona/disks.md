@@ -1,6 +1,6 @@
 ---
 weight: 330
-title: "Software"
+title: "Disk images"
 description: "Otrona disk dumps"
 icon: "save"
 date: "2024-04-22T13:09:11+02:00"
